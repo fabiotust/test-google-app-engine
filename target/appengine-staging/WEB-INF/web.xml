@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <!-- JSPC servlet mappings start -->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.confirm_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.confirm_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.NewBlogPost_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.NewBlogPost_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.create_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.create_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.confirm_jsp</servlet-name>
+        <url-pattern>/confirm.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.NewBlogPost_jsp</servlet-name>
+        <url-pattern>/NewBlogPost.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.create_jsp</servlet-name>
+        <url-pattern>/create.jsp</url-pattern>
+    </servlet-mapping>
+
+<!-- JSPC servlet mappings end -->
+
+<welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
